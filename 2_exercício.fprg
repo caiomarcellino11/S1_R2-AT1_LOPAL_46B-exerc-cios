@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2_exerc&#237;cio"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 03:07:06 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzYwNDsyMDI2LTAzLTE4OyIwMjozODoyMSAiOzI0MjM="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYwNDsyMDI2LTAzLTE4OyIwMzowNzowNiAiOzE7MjUzMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primeiro" type="Real" array="False" size=""/>
+            <output expression="&quot;fale o primeiro n&#250;mero&quot;" newline="True"/>
+            <input variable="primeiro"/>
+            <declare name="segundo" type="Real" array="False" size=""/>
+            <output expression="&quot;fale o segundo n&#250;mero&quot;" newline="True"/>
+            <input variable="segundo"/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <assign variable="soma" expression="primeiro + segundo"/>
+            <output expression="&quot;A soma &#233;:&quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

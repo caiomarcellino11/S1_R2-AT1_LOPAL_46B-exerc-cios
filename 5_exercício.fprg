@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5_exerc&#237;cio"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 04:17:33 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzYwNDsyMDI2LTAzLTE4OyIwMzo0OToxMyAiOzI0Mjc="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYwNDsyMDI2LTAzLTE4OyIwNDoxNzozMyAiOzE7MjUzMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="primeiro" type="Real" array="False" size=""/>
+            <output expression="&quot;digite sua primeira nota&quot;" newline="True"/>
+            <input variable="primeiro"/>
+            <declare name="segunda" type="Real" array="False" size=""/>
+            <output expression="&quot;digite sua segunda nota&quot;" newline="True"/>
+            <input variable="segunda"/>
+            <declare name="nota" type="Integer" array="False" size=""/>
+            <assign variable="nota" expression="primeiro+segunda"/>
+            <assign variable="nota" expression="nota/2"/>
+            <output expression="&quot;sua m&#233;dia &#233;: &quot; &amp; nota" newline="True"/>
+            <if expression="nota =0">
+                <then>
+                    <output expression="&quot;aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nota &lt;7">
+                        <then>
+                            <output expression="&quot;reprovado&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;aprovado&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
